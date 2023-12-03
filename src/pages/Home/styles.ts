@@ -49,7 +49,6 @@ export const Separator = styled.div`
   color: ${(props) => props.theme['green-500']};
 
   width: 4rem;
-  overflow: hidden;
   display: flex;
   justify-content: center;
 `
