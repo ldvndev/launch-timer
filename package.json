@@ -1,5 +1,5 @@
 {
-  "name": "02-ignite-timer",
+  "name": "wing-timer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
+    "date-fns": "^2.30.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
