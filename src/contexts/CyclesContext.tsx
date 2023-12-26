@@ -42,16 +42,14 @@ export function CycleContextProvider({ children }: CycleContextProviderProps) {
       cycles: [],
       activeCycleId: null,
     },
-    (initialState) => {
+    (initialValue) => {
       const storedStateAsJSON = localStorage.getItem(
         '@launch-timer:cycles-state-1.0.0',
       )
 
-      if (storedStateAsJSON) {
-        return JSON.parse(storedStateAsJSON)
-      }
+      if (!storedStateAsJSON) return initialValue
 
-      return initialState
+      return JSON.parse(storedStateAsJSON)
     },
   )
 
