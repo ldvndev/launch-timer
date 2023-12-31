@@ -8,6 +8,14 @@
 - History to track all your cycles.
 - User-friendly interface for a hassle-free experience.
 
+<h2>Screenshots of the Project </h2>
+<h3 align='left'>Home Page</h3>
+
+<img src='./src/assets/homePage.png'/>
+
+<h3 align='left'>History Page</h3>
+<img src='./src/assets/historyPage.png'/>
+
 ### Contribution
 
 <p>Each contribution is a unique piece of development 🧩. Any contribution What you do will be magnificent.</p>
